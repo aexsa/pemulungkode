@@ -1,4 +1,4 @@
-alert(tes);
+
 var Base64 = {
 _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 encode: function (input) {
@@ -99,6 +99,7 @@ var a_to_va = 0;
 var a_to_vb = 0;
 var a_to_vc = "";
 function auto_safelink() {
+  alert(tes);
 auto_safeconvert();
 }
 function auto_safeconvert() {
